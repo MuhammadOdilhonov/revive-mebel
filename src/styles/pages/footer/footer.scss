@@ -96,7 +96,7 @@
 }
 
 
-@media (min-width: 0px) and (max-width: 950px) {
+@media (min-width: 600px) and (max-width: 950px) {
     .Footer {
         width: 100%;
         height: auto;
@@ -164,6 +164,104 @@
                 .Footer-right-contact-phone {
                     display: flex;
                     margin-right: 30px;
+                }
+
+                .Footer-right-contact-email {
+                    display: flex;
+                }
+
+                .Footer-right-contact-icon {
+                    margin-top: 5px;
+                }
+            }
+
+            .Footer-right-ul {
+                color: #fff;
+                font-size: 18px;
+                list-style: none;
+            }
+
+            .Footer-right-map {
+                width: 100%;
+                height: 300px;
+                margin-top: 20px;
+                border-radius: 10px;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 0) and (max-width: 599px) {
+    .Footer {
+        width: 100%;
+        height: auto;
+        box-shadow: 7px -4px 9.1px 8px rgba(11, 132, 87, 0.25);
+        background-color: rgba(94, 96, 115, 1);
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 15px;
+
+        .Footer-left,
+        .Footer-right {
+            width: 100%;
+            /* 992 px dan keyin pastga tushish uchun to'liq ekranini qo'llash */
+            margin-bottom: 20px;
+            /* Moslashuvga bo'lgan kengaytirish */
+        }
+
+        .Footer-left {
+            .Footer-left-top-section {
+                display: flex;
+                align-items: center;
+
+                .Footer-left-top-section-logo {
+                    width: 150px;
+                    margin-right: 50px;
+                }
+
+                .Footer-left-top-section-right {
+                    display: flex;
+
+                    img {
+                        width: 40px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+
+            .Footer-left-bottom-section {
+                ul {
+                    list-style: none;
+                    color: #fff;
+                    font-weight: 300;
+                    font-size: 18px;
+
+                    li {
+                        margin-top: 14px;
+                    }
+                }
+            }
+        }
+
+        .Footer-right {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .Footer-right-contact {
+                display: flex;
+                color: #fff;
+                align-items: center;
+
+                .Footer-right-contact-phone {
+                    display: flex;
+                    margin-right: 30px;
+
                 }
 
                 .Footer-right-contact-email {

@@ -27,10 +27,10 @@ export default function Navbar() {
             </div>
             <div onClick={toggleMenu} className={openMenu ? "navbar_menu" : "navbar_menunone"}>
                 <ul className='navbar-menu-ul'>
-                    <li>Bosh sahifa</li>
-                    <li>Xususiy Texnika va Uskunalar</li>
-                    <li>Portfoliya (Loyiha)</li>
-                    <li>Biz bilan Bog'lanish</li>
+                    <a style={{ textDecoration: "none", color: "white" }} href="#carouselExampleDark"><li>Bosh sahifa</li></a>
+                    <a style={{ textDecoration: "none", color: "white" }} href="#Cards"><li>Xususiy Texnika va Uskunalar</li></a>
+                    <a style={{ textDecoration: "none", color: "white" }} href="#Portfolio"><li>Portfoliya (Loyiha)</li></a>
+                    <a style={{ textDecoration: "none", color: "white" }} href="#Footer"><li>Biz bilan Bog'lanish</li></a>
                 </ul>
             </div>
         </div>

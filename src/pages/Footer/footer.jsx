@@ -29,7 +29,7 @@ export default function Footer() {
                 <div className="Footer-right-contact">
                     <div className="Footer-right-contact-phone">
                         <BsTelephone className='Footer-right-contact-icon' />
-                        <p>+998-33-235-35-23</p>
+                        <a style={{ color: "white" }} href="tel:+998935410707">+998 93 541 07 07</a>
                     </div>
                     <div className="Footer-right-contact-email">
                         <MdOutlineMailOutline className='Footer-right-contact-icon' />
