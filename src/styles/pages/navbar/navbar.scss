@@ -1,0 +1,114 @@
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color: $global-darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
+    .navbar-right-section {
+        .navbar-right-section-ul {
+            display: flex;
+            list-style: none;
+            font-size: 20px;
+            font-weight: 300;
+            padding: 0 20px 0 0;
+            a{
+                text-decoration: none;
+                color: $global-white;
+            }
+
+            li {
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+.navbar-left-section {
+    width: 277px;
+    height: 72px;
+
+    .navbar-left-section-img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.navbar_hamburger {
+    display: none;
+}
+
+.navbar-menu-ul {
+    display: none;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1184px) {
+    .navbar-left-section {
+        width: 77px;
+        height: 72px;
+
+        .navbar-left-section-img {
+            width: 150px;
+            height: 50px;
+        }
+    }
+
+    .navbar-right-section-ul {
+        padding: 0;
+        /* Paddinglarni 0 qilamiz */
+    }
+
+    .navbar-right-section-ul li {
+        margin: 0;
+        /* Marginlarni 0 qilamiz */
+        font-size: 13px;
+        /* margin-top: 18px; */
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-right-section {
+        display: none;
+    }
+
+    .navbar_hamburger {
+        display: block;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        font-size: 40px;
+        color: $global-white;
+    }
+
+    .navbar_menu {
+        width: 300px;
+        height: 350px;
+        position: fixed;
+        top: 50px;
+        right: 60px;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .navbar_menunone {
+        right: -1000px;
+        position: fixed;
+    }
+
+    .navbar-menu-ul {
+        list-style: none;
+        text-align: center;
+        color: $global-white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+
+        li {
+            margin-top: 40px;
+        }
+    }
+}

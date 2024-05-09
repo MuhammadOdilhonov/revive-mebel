@@ -1,0 +1,344 @@
+.portfolio-title {
+    -webkit-text-stroke: 2.2px $global-darkgray;
+    font-weight: bold;
+    color: $global-yellow;
+}
+
+.portfolio-result {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    .portfolio-result-headerNames {
+        width: 70%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .portfolio-result-headerNames-names {
+            font-family: Inter;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 48.41px;
+            text-align: center;
+            color: $global-white;
+            -webkit-text-stroke: 2.2px $global-darkgray;
+        }
+
+        .portfolio-result-headerNames-line {
+            width: 5px;
+            height: 50px;
+            gap: 0px;
+            border-radius: 100%;
+            box-shadow: 0px 4px 4px 0px $glabal-black;
+            background-color: $global-yellow;
+        }
+    }
+
+    .portfolio-result-images {
+        width: 70%;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        box-sizing: border-box;
+
+        .portfolio-result-images-img {
+            width: 40%;
+            height: 40vh;
+            z-index: -5;
+        }
+
+        .portfolio-result-images-lines-start {
+            width: 40%;
+            height: 5px;
+            position: absolute;
+            background-color: $global-green;
+            bottom: 50px;
+            right: 65.5%;
+        }
+
+        .portfolio-result-images-lines-lineMiddle {
+            width: 5px;
+            height: 520px;
+            background-color: $global-green;
+            transform: rotate(40deg);
+
+        }
+
+        .portfolio-result-images-lines-end {
+            width: 40%;
+            height: 5px;
+            position: absolute;
+            background-color: $global-green;
+            top: 50px;
+            left: 65.5%;
+        }
+
+
+
+        .portfolio-result-images-lines-start_teskari {
+            width: 325px;
+            height: 5px;
+            position: absolute;
+            background-color: $global-green;
+            bottom: 50px;
+            right: 4%;
+        }
+
+        .portfolio-result-images-lines-lineMiddle_teskari {
+            width: 5px;
+            height: 520px;
+            background-color: $global-green;
+            transform: rotate(-40deg);
+
+        }
+
+        .portfolio-result-images-lines-end_teskari {
+            width: 325px;
+            height: 5px;
+            position: absolute;
+            background-color: $global-green;
+            top: 50px;
+            left: 4%;
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    .portfolio-title {
+        -webkit-text-stroke: 2.2px $global-darkgray;
+        font-weight: bold;
+        color: $global-yellow;
+    }
+
+    .portfolio-result {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+
+        .portfolio-result-headerNames {
+            width: 70%;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .portfolio-result-headerNames-names {
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 48.41px;
+                text-align: center;
+                color: $global-white;
+                -webkit-text-stroke: 2.2px $global-darkgray;
+            }
+
+            .portfolio-result-headerNames-line {
+                width: 5px;
+                height: 50px;
+                gap: 0px;
+                border-radius: 100%;
+                box-shadow: 0px 4px 4px 0px $glabal-black;
+                background-color: $global-yellow;
+            }
+        }
+
+        .portfolio-result-images {
+            width: 70%;
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            box-sizing: border-box;
+
+            .portfolio-result-images-img {
+                width: 40%;
+                height: 20vh;
+                z-index: -5;
+            }
+
+            .portfolio-result-images-lines-start {
+                width: 50%;
+                height: 5px;
+                position: absolute;
+                background-color: $global-green;
+                bottom: 100px;
+                left: 0;
+            }
+
+            .portfolio-result-images-lines-lineMiddle {
+                width: 5px;
+                height: 380px;
+                background-color: $global-green;
+                transform: rotate(40deg);
+            }
+
+            .portfolio-result-images-lines-end {
+                width: 50%;
+                height: 5px;
+                position: absolute;
+                background-color: $global-green;
+                top: 100px;
+                right: 0;
+            }
+
+
+
+            .portfolio-result-images-lines-start_teskari {
+                width: 325px;
+                height: 5px;
+                position: absolute;
+                background-color: $global-green;
+                bottom: 50px;
+                right: 4%;
+            }
+
+            .portfolio-result-images-lines-lineMiddle_teskari {
+                width: 5px;
+                height: 520px;
+                background-color: $global-green;
+                transform: rotate(-40deg);
+
+            }
+
+            .portfolio-result-images-lines-end_teskari {
+                width: 325px;
+                height: 5px;
+                position: absolute;
+                background-color: $global-green;
+                top: 50px;
+                left: 4%;
+            }
+        }
+    }
+}
+
+
+// @media screen and (min-width:721px) {
+
+//     .portfolio-title {
+//         -webkit-text-stroke: 2.2px $global-darkgray;
+//         font-weight: bold;
+//         color: $global-yellow;
+//     }
+
+//     .portfolio-result {
+//         width: 100%;
+//         height: auto;
+//         display: flex;
+//         justify-content: center;
+//         flex-wrap: wrap;
+//         box-sizing: border-box;
+
+//         .portfolio-result-headerNames {
+//             width: 70%;
+//             height: 100px;
+//             display: flex;
+//             justify-content: space-between;
+//             align-items: center;
+
+//             .portfolio-result-headerNames-names {
+//                 font-family: Inter;
+//                 font-size: 20px;
+//                 font-weight: 400;
+//                 line-height: 48.41px;
+//                 text-align: center;
+//                 color: $global-white;
+//                 -webkit-text-stroke: 2.2px $global-darkgray;
+//             }
+
+//             .portfolio-result-headerNames-line {
+//                 width: 5px;
+//                 height: 50px;
+//                 gap: 0px;
+//                 border-radius: 100%;
+//                 box-shadow: 0px 4px 4px 0px $glabal-black;
+//                 background-color: $global-yellow;
+//             }
+//         }
+
+//         .portfolio-result-images {
+//             width: 70%;
+//             height: 500px;
+//             display: flex;
+//             justify-content: space-between;
+//             align-items: center;
+//             position: relative;
+//             box-sizing: border-box;
+
+//             .portfolio-result-images-img {
+//                 width: 40%;
+//                 height: 20vh;
+//                 z-index: -5;
+//             }
+
+//             .portfolio-result-images-lines-start {
+//                 width: 50%;
+//                 height: 5px;
+//                 position: absolute;
+//                 background-color: $global-green;
+//                 bottom: 100px;
+//                 left: 0;
+//             }
+
+//             .portfolio-result-images-lines-lineMiddle {
+//                 width: 5px;
+//                 height: 380px;
+//                 background-color: $global-green;
+//                 transform: rotate(40deg);
+//             }
+
+//             .portfolio-result-images-lines-end {
+//                 width: 50%;
+//                 height: 5px;
+//                 position: absolute;
+//                 background-color: $global-green;
+//                 top: 100px;
+//                 right: 50px;
+//             }
+
+
+
+//             .portfolio-result-images-lines-start_teskari {
+//                 width: 325px;
+//                 height: 5px;
+//                 position: absolute;
+//                 background-color: $global-green;
+//                 bottom: 50px;
+//                 right: 4%;
+//             }
+
+//             .portfolio-result-images-lines-lineMiddle_teskari {
+//                 width: 5px;
+//                 height: 520px;
+//                 background-color: $global-green;
+//                 transform: rotate(-40deg);
+
+//             }
+
+//             .portfolio-result-images-lines-end_teskari {
+//                 width: 325px;
+//                 height: 5px;
+//                 position: absolute;
+//                 background-color: $global-green;
+//                 top: 50px;
+//                 left: 4%;
+//             }
+//         }
+//     }
+
+// }

@@ -1,0 +1,15 @@
+@import './variables.scss';
+@import './pages/total.scss';
+@import './components/totalComponents.scss';
+body{
+    background-color: red;
+    background-color: $global-gray;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $global-fontfamiliy;
+}
+
+

@@ -1,0 +1,27 @@
+.cards_title {
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+    -webkit-text-stroke: 2.2px $global-darkgray;
+    font-weight: bold;
+    color: $global-yellow;
+}
+
+.card_bg {
+    box-shadow: 3px 7px 15.8px 12px rgba(11, 132, 87, 0.25);
+}
+
+.card_text {
+    background-color: $global-darkgray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cards_descreption {
+    margin: 30px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1.6px $global-darkgray;
+    font-weight: bold;
+}
